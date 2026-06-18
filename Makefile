@@ -5,7 +5,7 @@ LDFLAGS =
 
 # Target executable
 TARGET = pendu
-SOURCES = main.c
+SOURCES = main.c randomWordPicker.c
 OBJECTS = $(SOURCES:.c=.o)
 
 # Default target
